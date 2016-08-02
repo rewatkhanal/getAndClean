@@ -1,4 +1,5 @@
-The followings are the topics of tidy data sets:
+### The followings are the topics of tidy data sets:
+
 1. "subject"
 2. "activity"
 3. "tbodyacc-mean-x" 
