@@ -1,8 +1,8 @@
 
 1. "subject"
 2. "activity"
-3."tbodyacc-mean-x" 
-4."tbodyacc-mean-y"
+3. "tbodyacc-mean-x" 
+4. "tbodyacc-mean-y"
 5."tbodyacc-mean-z"
 6."tbodyacc-std-x" 
 7."tbodyacc-std-y" 
