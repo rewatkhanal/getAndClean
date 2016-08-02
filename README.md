@@ -1,0 +1,2 @@
+# getAndClean
+get and clean
