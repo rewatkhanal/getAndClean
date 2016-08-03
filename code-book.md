@@ -1,6 +1,6 @@
 ### The followings are the summary results of tidy_data.txt sets.
 
-### "subject" and "activity" are Two Identfires and remaining others are mesurements.
+### "Subject" and "Activity" are two Identfires and remaining others are Mesurements.
 
 1. "subject"
 2. "activity"
