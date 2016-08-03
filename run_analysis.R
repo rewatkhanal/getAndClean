@@ -3,9 +3,7 @@
 
 ## Retrieved data source :https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-## R-codes detail
-
-# 1. Merging the training and the test sets to get one data set.
+## Solution1:
 
 data1 <- read.table("train/X_train.txt")
 data2 <- read.table("test/X_test.txt")
@@ -19,13 +17,11 @@ data1 <- read.table("train/y_train.txt")
 data2 <- read.table("test/y_test.txt")
 Y <- rbind(data1, data2)
 
-##############
-##data1
-##data2
+
 
 ##Q2:Extracts only the measurements on the mean and standard deviation for each measurement.
 
-##2. To extract only the measurements on the mean and standard deviation for each measurement.
+##Solution2
 
 features <- read.table("features.txt")
 indices_good_features <- grep("-mean\\(\\)|-std\\(\\)", features[, 2])
@@ -37,7 +33,7 @@ names(X) <- tolower(names(X))
 
 ## Q3: Uses descriptive activity names to name the activities in the data set
 
-## 3. To use descriptive activity names to name the activities in the data set.
+## Solution3
 
 activities <- read.table("activity_labels.txt")
 activities[, 2] = gsub("_", "", tolower(as.character(activities[, 2])))
@@ -46,9 +42,9 @@ names(Y) <- "activity"
 
 
 
-##Q4: Appropriately labels the data set with descriptive variable names.
+## Q4: Appropriately labels the data set with descriptive variable names.
 
-## 4. To appropriately label the data set with descriptive activity names.
+## Solution4
 
 names(S) <- "subject"
 Cleaned <- cbind(S, Y, X)
@@ -58,9 +54,7 @@ write.table(Cleaned, "Clean_Merged_data.txt")
 
 ##Q5: From the data set in step 4, creates a second, independent tidy data set with the average of each
 
-##variable for each activity and each subject.
-
-# 5. To create  independent tidy data set with the average of each variable for each activity and each subject.
+## Solution5
 
 uniqueSubjects = unique(S)[,1]
 numSubjects = length(unique(S)[,1])
