@@ -1,5 +1,5 @@
 ### run_analysis.R is the R scripts for the course project of Getting and Cleaning Data.
-### Here are the steps of getting the Teady Data known as "tidy_data.txt".
+### Here are the steps of getting the Tidy Data known as "tidy_data.txt".
 
 1. Downloading dataset from data source :https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 2. Merging the training and the test sets to get one data set.
