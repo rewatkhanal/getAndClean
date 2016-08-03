@@ -1,4 +1,6 @@
-### The followings are the topics of tidy data sets:
+### The followings are the summary results of tidy_data.txt sets.
+
+### "subject" and "activity" are Two Identfires and remaining others are mesurements.
 
 1. "subject"
 2. "activity"
