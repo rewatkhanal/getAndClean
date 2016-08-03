@@ -1,6 +1,6 @@
 ### The followings are the summary results of tidy_data.txt sets.
 
-### "Subject" and "Activity" are two Identfires and remaining others are Mesurements.
+### "Subject" and "Activity" are two Identfires and remaining others sixty six are Mesurements.
 
 1. "subject"
 2. "activity"
@@ -70,3 +70,17 @@
 66. "fbodybodygyromag-std"
 67. "fbodybodygyrojerkmag-mean"
 68. "fbodybodygyrojerkmag-std"
+
+### Level Ativities are brlow.
+
+1. "walking"
+2. "walkingdownstairs"
+3. "walkingupstairs"
+4. "standing"
+5. "sitting"
+6. "laying"
+
+
+
+
+
